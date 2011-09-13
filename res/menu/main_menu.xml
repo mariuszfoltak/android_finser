@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:menuCategory="container" android:visible="true" android:enabled="true" android:orderInCategory="0" android:titleCondensed="Ustawienia" android:title="Ustawienia" android:icon="@drawable/ic_menu_preferences" android:id="@+id/menuPreferences"></item>
+    <item android:title="Odśwież" android:menuCategory="container" android:visible="true" android:titleCondensed="Odśwież" android:id="@+id/menuRefresh" android:enabled="true" android:orderInCategory="1" android:icon="@drawable/ic_menu_refresh"></item>
+</menu>

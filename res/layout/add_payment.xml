@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginRight="0dp" android:paddingTop="5dip" android:gravity="center_horizontal">
+	  <Button
+	  	android:text="@string/widget_add_payment"
+	  	android:layout_marginRight="50dp"
+	  	android:layout_height="wrap_content"
+	  	android:layout_below="@+id/edit_payment"
+	  	android:layout_marginLeft="0dp"
+	  	android:layout_width="135dp" android:layout_centerInParent="true" android:id="@+id/btn_dodaj"></Button>
+	  <Button android:text="Button" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:id="@+id/btnDate" android:layout_width="120dp" android:layout_height="wrap_content"></Button>
+	  <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/edit_payment" android:imeOptions="actionDone" android:layout_below="@+id/btnDate" android:layout_alignParentLeft="true">
+	      <requestFocus></requestFocus>
+	  </EditText>
+	  <Button android:layout_width="wrap_content" android:text="Button" android:id="@+id/btnTime" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/btnDate" android:layout_height="wrap_content"></Button>
+	  <Button android:layout_height="wrap_content" android:text="@string/btnSetToNow" android:id="@+id/btnSetToNow" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_width="100dp"></Button>
+</RelativeLayout>

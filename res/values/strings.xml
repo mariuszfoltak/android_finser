@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Finser!</string>
+    <string name="app_name">Finser</string>
+    <string name="add_payment">Dodaj</string>
+    <string name="txt_payment"></string>
+    <string name="no_payments">Aby zobaczyć płatności, musisz podać poprawne dane do logowania.</string>
+    <string name="Login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="widget_add_payment">Dodaj</string>
+    <string name="widget_cancel">Zakończ</string>
+    <string name="btnSetToNow">Teraz</string>
+</resources>

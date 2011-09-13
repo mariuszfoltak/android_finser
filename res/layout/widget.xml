@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+  				android:layout_width="fill_parent"
+  				android:orientation="vertical" 
+  				android:layout_height="fill_parent">
+    <RelativeLayout
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/relativeLayout1" 
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/bg_widget" >
+        <ImageButton
+        	android:layout_height="wrap_content" 
+        	android:layout_width="wrap_content" 
+        	android:src="@drawable/ic_widget_logo" 
+        	android:background="@drawable/transparent" 
+        	android:id="@+id/btn_finser" 
+        	android:layout_centerVertical="true" 
+        	android:layout_alignParentLeft="true" 
+        	android:layout_marginLeft="16dp"></ImageButton>
+        <ImageButton
+        	android:layout_height="wrap_content"
+        	android:layout_width="wrap_content"
+        	android:src="@drawable/ic_widget_edittext"
+        	android:background="@drawable/transparent"
+        	android:id="@+id/btn_add_payment"
+        	android:layout_centerVertical="true" 
+        	android:layout_toRightOf="@+id/btn_finser"
+        	android:layout_marginLeft="4dp"></ImageButton>
+    </RelativeLayout>
+</LinearLayout>

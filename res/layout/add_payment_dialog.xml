@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="0dp">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="20dp" android:background="@drawable/custom">
+        <EditText android:text="" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/widget_addpayment" android:imeOptions="actionDone"></EditText>
+        <Button android:layout_marginLeft="50dp" android:id="@+id/widget_anuluj" android:text="@string/widget_cancel" android:layout_height="wrap_content" android:layout_below="@+id/widget_addpayment" android:layout_alignRight="@+id/widget_addpayment" android:layout_marginRight="0dp" android:layout_width="135dp"></Button>
+        <Button android:id="@+id/widget_dodaj" android:text="@string/widget_add_payment" android:layout_marginRight="50dp" android:layout_height="wrap_content" android:layout_below="@+id/widget_addpayment" android:layout_alignLeft="@+id/widget_addpayment" android:layout_marginLeft="0dp" android:layout_width="135dp"></Button>
+    </RelativeLayout>
+</RelativeLayout>
