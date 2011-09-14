@@ -2,7 +2,7 @@ Finser Android
 ==============
 
 Finser Android jest to mobilna aplikacja na androida
-do obsługi serwisu [Finser.pl](http://example.com/ "Finser.pl")
+do obsługi serwisu [Finser.pl](http://finser.pl/ "Finser.pl")
 
 Aplikacja pozwala na:
 
